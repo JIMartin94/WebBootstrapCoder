@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Computación</title>
+    <link rel="icon" type="image/x-icon" href="https://icongr.am/devicon/react-original.svg?size=128&color=currentColor">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>      
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--CDN CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--MI CSS-->
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+
+    <header class="container-fluid">
+       <div class="row">        
+                <div class="header_logo col-lg-2 col-md-2 col-3 h-100 p-0"> 
+                    <div class="logo w-50 m-0">
+                        <a href="../index.html">
+                            <img src="https://icongr.am/devicon/react-original.svg?size=128&color=currentColor" alt="Logo Pagina">
+                            <p>REACT COMPUTACION</p>
+                        </a>
+                    </div>
+                </div>   
+                <div class="menu col-lg-10 col-md-10 col-9">
+                    <div class="col-lg-12 col-md-12 col-12 d-flex p-0">
+                        <div class="col-lg-8 col-md-8 col-7 h-100 p-0 m-0 d-flex">
+                            <input type="text" class="header_buscador_text form-control" placeholder="Buscador" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                              <button class="header_buscador_button btn btn-outline-secondary" value="L" type="button" id="button-addon2">L</button>
+                            </div>
+                        </div>
+                        
+                        <div class="header_redes col-lg-4 col-5 h-100 d-flex p-0 ">
+                            <a href="https://web.whatsapp.com/" target="_blank" class="header_redes_icon" ><img src="../assets/img/whatsapp.png" alt="Whats app"></a>
+                            <a href="https://twitter.com/" target="_blank" class="header_redes_icon" ><img src="../assets/img/twitter.png" alt="Twitter"></a>
+                            <a href="https://www.instagram.com/" target="_blank" class="header_redes_icon"><img src="../assets/img/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.facebook.com/" target="_blank"class="header_redes_icon" ><img src="../assets/img/facebook.png" alt="Facebook"></a>
+                        </div>
+
+                    </div>
+                    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light col-lg-12 col-md-12 col-12 h-70 p-0">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class=" nav_li nav-item">
+                                        <a class="nav-link" href="../index.html">INICIO</a>
+                                    </li>
+                                    <li class="nav_li nav-item">
+                                    <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                                    </li>
+                                    <li class="nav_li nav-item">
+                                    <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                                    </li>
+                                    <li class="nav_li nav-item">
+                                        <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                                    </li>
+                                    <li class="nav_li nav-item">
+                                        <a class="nav-link" href="preguntasFrecuentes.html">PREGUNTAS FRECUENTES</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </nav>                    
+                </div>     
+        </div>
+    </header>
+    <!-- INICIO DEL CONTENIDO-->
+    <main class="container">
+        <div class="row">            
+         <div class="col-lg-12">
+                <h2 class="preguntas_frecuentes_titulo">PREGUNTAS FRECUENTES</h2>
+            </div>
+            
+            <div class="preguntas_frecuentes col-lg-12 col-12 ">
+                <ul>
+                    <li class="preguntas_frecuentes_pregunta">
+                        <h4>¿Cómo realizo el pago si no tengo cuenta de Mercado Libre?</h4>
+                        <ul>
+                            <li class="preguntas_frecuentes_respuesta">
+                                ¡Crear una cuenta es muy fácil! Al momento de comprar, te redirigiremos a Mercado Libre para que la crees.
+                                Sólo tenés que ingresar un e-mail, una clave y continuar con tu compra.
+                            </li><br>
+                        </ul>
+                    </li>
+                    <li class="preguntas_frecuentes_pregunta">
+                        <h4>¿Dónde veo el costo de envío y el tiempo de entrega?</h4>
+                        <ul>
+                            <li class="preguntas_frecuentes_respuesta">                            
+                                En la página del producto que quieras comprar verás la opción de calcular cuándo llega, 
+                                con la información sobre el costo de envío y el tiempo de entrega.
+                            </li><br>
+                        </ul>
+                    </li>
+                    <li class="preguntas_frecuentes_pregunta">
+                        <h4>¿Puedo pagar en cuotas?</h4>
+                        <ul>
+                            <li class="preguntas_frecuentes_respuesta">                            
+                                Podrás ver en la página del producto si se puede pagar en cuotas y con qué medios.
+                                Si decidís comprarlo, antes de pagar podrás elegir la cantidad de cuotas y te informaremos el valor de cada una.
+                            </li><br>
+                        </ul>
+                    </li>
+                    <li class="preguntas_frecuentes_pregunta">
+                        <h4>¿Qué cubre la garantía del producto?</h4>
+                        <ul>
+                            <li class="preguntas_frecuentes_respuesta">                            
+                                Bugs emergentes posteriores a cada entrega y revisión del producto y siempre se mantiene actualizado 
+                                a las últimas tecnologías utilizadas.
+                            </li><br>
+                        </ul>
+                    </li>
+                    <li class="preguntas_frecuentes_pregunta">
+                        <h4>¿Hacen mantenimiento?</h4>
+                        <ul>
+                            <li class="preguntas_frecuentes_respuesta">                            
+                                El mantenimiento es un servicio contratable con el que contamos y ofrecemos 3 distintos planes 
+                                para que puedas optar por el que más se adecue a tus necesidades.
+                            </li><br>
+                        </ul>
+                    </li>
+                </ul>                
+            </div>
+        </div>    
+    </main>
+    <!-- CIERRE DEL CONTENIDO-->
+    <!-- INICIO DE FOOTER-->
+    <footer class=" footer container-fluid">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6 col-6">
+                <a  class="footer_contacto" href="contacto.html">CONTACTO</a>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-6"">
+                <h5>DESARROLLADO CON</h5>
+                <div id="logo_lenguajes">
+                    <img src="../assets/img/html5-css.png" alt="Creado con html y Css">
+                </div>   
+            </div> 
+
+            <div class="col-lg-3 col-md-6 col-6"">
+                <h5>OPTIMISADO PARA</h5>
+                <div class="browsers">
+                    <a href="#">
+                        <img src="../assets/img/firefox-icon.png" alt="firefox" title="Firefox">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/chrome.png" alt="chrome" title="Chrome">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/safari.png" alt="safari" title="Safari">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/Opera_256x256.png" alt="opera" title="opera">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/android.png" alt="android" title="android">
+                    </a>
+                </div>
+            </div> 
+
+            <div class="col-lg-3 col-md-6 col-6"">
+                <h5>AUTOR</h5>
+                <p> Copyright © Martin, Juan Ignacio</p>
+            </div>
+        </div>
+    </footer>
+       <!-- Cierre DE FOOTER-->
+
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
