@@ -1,0 +1,79 @@
+@media screen and (min-width: 768px) and (max-width: 849px){
+
+    /* HEADER */
+    .header_logo{
+        justify-content: center;
+
+        .logo {
+            width: 100%;
+            margin-right: 0%;
+        }
+    }
+
+    .header_nav_items_boton{
+        font-size: 15px;
+    }
+
+    .header_redes_icon {
+        padding: 0px; 
+        transition: all 1s;
+
+        img{
+            width: 37px;
+        }
+    }
+
+    /* Productos */
+
+    .productos {
+        padding: 1% 2.5%;
+    }
+
+    /*SERVICIOS*/
+    .servicios_section_descripcion p {
+        font-size: 15px;
+
+    }
+
+    .servicios_section_video {
+        margin-top: 20%;
+
+        iframe {
+            width: 96%;
+            height: 53%;
+        }
+    }
+
+    /*NOSOTROS*/
+    .nosotros_sobre-texto p {
+        font-size: 15px;            
+    }
+
+    .nosotros_sobre_imagen {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 1% 10% !important;
+
+        img {
+            box-shadow: 0px 10px 20px black;
+        }
+    }
+
+    .nosotros_donde_estamos_mapa iframe {
+        width: 90%;
+    }
+
+    /*Preguntas frecuentes*/
+
+    .preguntas_frecuentes_titulo,.preguntas_frecuentes_pregunta,
+    .preguntas_frecuentes_respuesta{
+        text-align: center;
+    }
+
+    /*Footer*/
+
+    .footer .row div{
+        margin-top: 10px;
+    }  
+}

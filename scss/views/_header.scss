@@ -1,0 +1,117 @@
+/*------------------------ HEADER ------------------------------ */
+
+header {   
+    background-image: $bgEncabezado;
+    background-attachment: fixed ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    box-shadow: 1px 3px 10px black;
+    overflow: hidden;
+
+    .header_logo{
+        display: flex;
+        justify-content: end;
+
+        .logo{
+            height: 120px;
+
+            img {
+                height: 56px;
+                width: 80px;
+                animation-name: girarLogo;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+
+                @keyframes girarLogo{
+                    from{
+                        transform: rotateZ(0deg);
+                    }
+                    to{
+                        transform: rotateZ(360deg);
+                    }
+                }
+            }
+
+            p {
+                display: block;
+                text-align: center;
+                font-size: 16px;
+                margin: auto;
+                text-shadow: 1px 2px 1px black;
+            }
+        }
+    }
+
+    .menu {
+        padding: 1% 0% 0% 2%;
+
+        .header_buscador_text {
+            width: 50%;
+            height: 30px;
+            font-size: 17px;
+            color: black;
+        }
+
+        .header_buscador_button {
+            font-family: "WebSymbolsRegular";
+            color: black;
+            background-color: blanchedalmond;
+            height: 30px;
+            padding-top: 0px;
+        }
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        display: block;
+        width: 100%;
+        padding: 5px;
+        text-align: left;
+        transition: all 1s;
+        color: $colorLetra;
+
+        &:hover{
+            transform: scale(1.2,1.2);
+            color: $colorLetra;
+        } 
+    }
+    .nav_li{
+        margin-right: 10px;
+    }  
+
+    .header_redes_icon{
+        display: inline-block;
+        border-radius: 10px;
+        padding: 2px 3px 0px 10px;  
+        transition: all 1s; 
+    
+        img{
+            transition: all 1s; 
+    
+            &:hover{
+                transform: scale(1.4,1.4);
+            }
+        }
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

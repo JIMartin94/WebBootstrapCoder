@@ -1,0 +1,124 @@
+@media screen and (min-width: 576px) and (max-width: 767px){
+
+    /* HEADER */
+
+    .header_logo{
+        justify-content: center;
+        padding: 0px;
+
+        .logo {
+            width: 70%!important;
+            margin-right: 0%;
+
+            img {
+                height: 70px;
+                width: 55%;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .menu {
+        padding: 1% 0% 0% 0%;
+
+        .header_buscador_text {
+            width: 70%;
+        }
+
+        .header_redes_icon {
+            padding: 0px; 
+            transition: all 1s;
+    
+            img{
+                width: 37px;
+            }
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: end;
+            width: 90%;
+            height: 70%;
+
+            .navbar-toggler{
+                background-color: blanchedalmond;
+            }
+        }
+    }
+
+    /*PRODUCTOS*/
+    .productos {
+        padding: 1% 2.5%;
+
+        .productos_item {
+            width: 50%;
+            margin-right: auto;
+            margin-left: auto;  
+        }
+    }
+
+    /*SERVICIOS*/
+    .servicios_section_descripcion {
+        p {
+            font-size: 15px;
+        }
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .nosotros_sobre-texto p {
+        font-size: 15px;            
+    }
+
+    .servicios_section_video {
+        display: flex;
+        height: 215px;
+        width: 100%;
+        justify-content: center;
+
+        iframe {
+            width: 70%;
+            height: 100%;
+        }
+    }
+
+    /*NOSOTROS*/
+
+    .nosotros_sobre_imagen {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 1% 10% !important;
+
+        img {
+            box-shadow: 0px 10px 20px black;
+        }
+    }
+
+    .nosotros_donde_estamos_mapa iframe {
+        width: 90%;
+    }
+
+    /*Preguntas frecuentes*/
+
+    .preguntas_frecuentes ul{
+        padding-left: 0px;
+    }
+
+    .preguntas_frecuentes_titulo, .preguntas_frecuentes_pregunta,
+    .preguntas_frecuentes_respuesta{
+        text-align: center;
+    }
+
+    /*CONTATO*/
+
+    #checkbox input{
+        width: 25px;
+        height: 25px;
+    }
+    
+}

@@ -1,0 +1,23 @@
+/*----------------------------------- RESPONSIVE DESIGN-------------------------*/
+
+@media screen and (min-width: 1001px) and (max-width: 1250px){
+
+    /* HEADER */
+
+    .header_redes_icon {
+        padding: 0px; 
+        transition: all 1s;
+    }
+
+    /*SERVICIOS*/
+    .servicios_section_descripcion p {
+        font-size: 15px;
+
+    }
+    /*NOSOTROS*/
+    .nosotros_sobre-texto p {
+        font-size: 15px;            
+    }
+
+    
+}

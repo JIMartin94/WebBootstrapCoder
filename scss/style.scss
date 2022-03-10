@@ -1,0 +1,15 @@
+@import "variables";
+@import "root";
+@import "views/header";
+@import "views/main";
+@import "views/productos";
+@import "views/servicios";
+@import "views/nosotros";
+@import "views/preguntasFrecuentes";
+@import "views/contacto";
+@import "views/footer";
+@import "responsive_design/rd_min1001_max1250";
+@import "responsive_design/rd_min850_max1000";
+@import "responsive_design/rd_min768_max849";
+@import "responsive_design/rd_min576_max767";
+@import "responsive_design/rd_max575";

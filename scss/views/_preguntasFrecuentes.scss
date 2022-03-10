@@ -1,0 +1,24 @@
+/*------------------------ PREGUNTAS FRECUENTES------------------------------ */
+
+
+.preguntas_frecuentes_titulo{
+    margin: 20px auto;
+    font-size: 40px;
+}
+
+.preguntas_frecuentes{ 
+    h4{
+        font-weight: bold;
+    }
+
+    .preguntas_frecuentes_pregunta h4{
+        background-color: darkred;
+        box-shadow: 1px 3px 15px black
+    }
+
+    .preguntas_frecuentes_respuesta{
+        margin-top: 5px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+}

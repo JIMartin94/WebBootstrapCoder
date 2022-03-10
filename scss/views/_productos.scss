@@ -1,0 +1,39 @@
+/*------------------------ PRODUCTOS ------------------------------ */
+
+.productos{
+    padding: 1% 0.5%;
+
+    .productos_item {
+        border: 1px solid black;
+        box-shadow: 1px 1px 2px black;
+        overflow: hidden;
+        height: 240px;
+        padding: 0%;
+
+        .productos_item_imagen {
+            display: block;
+            width: 100%;
+            height: 70%;
+            border: 1px solid black;
+            background-color: white;
+        }
+
+        .productos_item_texto{
+            display: block;
+            background-image: $bgNegro;
+            text-align: center;
+            height: 30%;
+            padding: 10px 0px;
+            color: $colorLetra;
+
+            &:hover{
+                color: $colorLetra;
+               }
+        }
+    }
+}
+
+
+
+
+
