@@ -16,13 +16,11 @@
 }
 
 .servicios_section_video{
-    height: 90%;
-    width: 100%;
+    @include sizes(100%,90%);
     margin-top: 5%;
 
     iframe {
-        width: 80%;
-        height: 90%;
+        @include sizes(80%,90%);
         box-shadow: 0px 10px 20px black;
     }
 }

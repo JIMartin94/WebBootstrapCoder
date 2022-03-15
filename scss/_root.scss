@@ -11,14 +11,14 @@
 
 *{
     margin: 0px;
-    font-family: $tipoLetra;
-    font-size: $tamanioLetra;
-    color: $colorLetra;
+    font-family: map-get($map: $estilos, $key: tipoLetra ),cursive;
+    font-size: map-get($estilos, tamanioLetra);
+    color: map-get($estilos,colorLetra);
     list-style: none;
 }
 
 body {
-    background-image: $bgNegro;
+    background-image: map-get($map: $estilos, $key: bgNegro );
     background-attachment: fixed ;
     background-position: center ;
     background-repeat: no-repeat;
