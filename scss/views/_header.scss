@@ -1,7 +1,7 @@
 /*------------------------ HEADER ------------------------------ */
 
 header {   
-    background-image: $bgEncabezado;
+    background-image: map-get($map: $estilos, $key: bgRojo );
     background-attachment: fixed ;
     background-position: center ;
     background-repeat: no-repeat;
@@ -52,8 +52,7 @@ header {
         padding: 1% 0% 0% 2%;
 
         .header_buscador_text {
-            width: 50%;
-            height: 30px;
+            @include sizes(50%,30px);
             font-size: 17px;
             color: black;
         }
@@ -61,7 +60,7 @@ header {
         .header_buscador_button {
             font-family: "WebSymbolsRegular";
             color: black;
-            background-color: blanchedalmond;
+            background-color: map-get($map: $estilos, $key: colorLetra );
             height: 30px;
             padding-top: 0px;
         }
@@ -73,11 +72,11 @@ header {
         padding: 5px;
         text-align: left;
         transition: all 1s;
-        color: $colorLetra;
+        color: map-get($map: $estilos, $key: colorLetra );
 
         &:hover{
             transform: scale(1.2,1.2);
-            color: $colorLetra;
+            color: map-get($map: $estilos, $key: colorLetra );
         } 
     }
     .nav_li{
@@ -92,16 +91,12 @@ header {
     
         img{
             transition: all 1s; 
-    
+                
             &:hover{
                 transform: scale(1.4,1.4);
             }
         }
     }
-
-
-
-
 }
 
 

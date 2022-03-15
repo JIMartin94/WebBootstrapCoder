@@ -22,14 +22,12 @@
             }
 
             textarea{
-                width: 100%;
-                height: 90px;
+                @include sizes(100%,90px);
                 color: black;
             }
 
             [type="radio"] {
-                width: 5%;
-                height: 20px;
+                @include sizes(5%,20px);
                 margin-left: 20px;
             }
 
@@ -39,16 +37,14 @@
         }
 
         #checkbox input{
-            width: 5%;
-            height: 20px;
+            @include sizes(5%,20px);
             margin-top: 6px;  
             cursor: pointer;
         }
 
         [type="submit"]{
             color: black;
-            width: 100%;
-            height: 30px;
+            @include sizes(100%,30px);
             margin-top: 6px;
             cursor: pointer;
         }

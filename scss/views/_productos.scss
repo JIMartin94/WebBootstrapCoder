@@ -12,22 +12,21 @@
 
         .productos_item_imagen {
             display: block;
-            width: 100%;
-            height: 70%;
+            @include sizes(100%,70%);
             border: 1px solid black;
             background-color: white;
         }
 
         .productos_item_texto{
             display: block;
-            background-image: $bgNegro;
+            background-image: map-get($map: $estilos, $key: bgNegro );
             text-align: center;
             height: 30%;
             padding: 10px 0px;
-            color: $colorLetra;
+            color: map-get($map: $estilos, $key: colorLetra );
 
             &:hover{
-                color: $colorLetra;
+                color: map-get($map: $estilos, $key: colorLetra );
                }
         }
     }
