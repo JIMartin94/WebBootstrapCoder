@@ -249,7 +249,7 @@ main .row {
   box-shadow: 1px -3px 5px black;
   background-image: url(../assets/img/background_encabezado.png);
   margin-top: 60px;
-  margin-bottom: 0px;
+  margin-bottom: 0px !important;
   padding: 20px 50px; }
   .footer .row div p {
     text-align: center; }
