@@ -23,7 +23,7 @@
         }
 
         .logo {
-            width: 70%!important;
+            width: 100%!important;
             margin-right: 0%;
         }
     }
@@ -54,6 +54,11 @@
                 background-color: blanchedalmond;
             }
         }
+
+        .navbar-light .navbar-nav .nav-link {
+          display: flex;
+          justify-content: end;
+        }
     }
 
     /*PRODUCTOS*/
@@ -75,29 +80,136 @@
 
 
 
-    /*SERVICIOS*/
-    .servicios_section_descripcion{
-        p {
-        font-size: 15px;
-        }
-        h2 {
-            text-align: center;
-        }
-    }
+   /*SERVICIOS*/
 
-
-    .servicios_section_video {
-        display: flex;
-        height: 215px;
+   .conteiner_servicios{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 120px 350px 200px 200px;
+        grid-auto-flow: row;
+        grid-template-areas:"header2"
+                            "servicios_section_descripcion"
+                            "servicios_section_video"
+                            "footer2";
         width: 100%;
-        justify-content: center;
-
-        iframe {
-            width: 70%;
-            height: 100%;
-        }
+        min-height: 100vh;  
     }
 
+   .header2{
+     grid-area: header2;
+    .header_logo{
+      width: 20%;
+      justify-content: center;
+
+      .logo {
+        width: 99%; 
+        padding-top: 15px ;
+        
+        img{
+            width: 50px;
+            height: 40px;    
+        }
+
+        p {
+            padding-top: 7px;
+            width: 100%;
+            font-size: 10px;
+          }
+      } 
+
+      
+    } 
+    
+    .header_menu{
+      width: 80%;
+
+      .header_menu2{
+        .header_buscador{
+          width: 60%;
+          
+          form{
+            .header_buscador_text{
+              width: 70%;
+            }
+  
+            .header_buscador_button{
+              width: 14%;
+            }
+          }
+          
+        }
+
+        .header_redes {
+          display: flex;
+          justify-content: end;
+          width: 40%;
+          padding: 0%;
+
+          a {
+            padding: 0%;
+            width: 100%;
+          } 
+        }
+      }
+      .encabezado_nav .encabezado_nav_items li .encabezado_nav_items_boton {
+        font-size: 9px;
+      }
+    }
+  }  
+    
+  .servicios_section_descripcion{
+    grid-area: servicios_section_descripcion;
+    h2 {
+      width: 100%;
+      height: 60px;
+      padding: 0%;
+      text-align: center;
+    }
+
+    p {
+      height: 280px;
+      text-align: center;
+      font-size: 65%;
+      padding: 0% 15%;
+    }
+  } 
+
+  .servicios_section_video{
+    grid-area: servicios_section_video;
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    padding: 0% 10%;
+
+    iframe {
+    width: 80%;
+    height: 100%;
+    }
+  }
+
+  .footer2 {
+    grid-area: footer2;
+    padding: 20px 0px;
+
+    div{
+      #logo_lenguajes img{
+        height: 40%;
+      }
+      
+      h5{
+        font-size: 11px;
+      }
+    
+      a img {
+        width: 20px;
+      }
+    
+      p{
+        font-size: 11px;
+      }
+    }
+  }
+    
     /*NOSOTROS*/
 
     .nosotros_sobre-texto p {

@@ -30,19 +30,42 @@
     }
 
     /*SERVICIOS*/
-    .servicios_section_descripcion p {
-        font-size: 15px;
-
-    }
-
-    .servicios_section_video {
-        margin-top: 20%;
-
-        iframe {
-            width: 96%;
-            height: 53%;
+    .header2{
+        .header_logo .logo {
+            width: 99%;
         }
+
+        .header_redes {
+            padding: 1% 0% 0% 15%;
+        }  
+    } 
+
+    .servicios_section_descripcion p {
+    font-size: 13px;
+    padding: 1% 4% 10% 20%;
     }
+
+    .servicios_section_video iframe {
+        width: 100%;
+        height: 70%;
+    }
+
+    .footer2{
+        div{
+            #logo_lenguajes img{
+                height: 59%;
+            }
+            
+            h5{
+                font-size: 16px;
+            }
+            
+            a img {
+                width: 37px;
+            }
+        }
+    } 
+    
 
     /*NOSOTROS*/
     .nosotros_sobre-texto p {
